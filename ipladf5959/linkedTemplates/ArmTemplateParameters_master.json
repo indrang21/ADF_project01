@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ipladf5959"
+		},
+		"lsipl_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_HttpServer1_gitipl_properties_typeProperties_url": {
+			"value": "https://github.com/indrang21/ADF_project01/raw/main/"
+		},
+		"lsipl_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://iplproject2121.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
