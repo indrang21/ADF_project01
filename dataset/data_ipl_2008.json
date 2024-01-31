@@ -1,0 +1,22 @@
+{
+	"name": "data_ipl_2008",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_HttpServer1_gitipl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "ipl_2008.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
