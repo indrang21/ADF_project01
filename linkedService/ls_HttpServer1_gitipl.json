@@ -1,0 +1,12 @@
+{
+	"name": "ls_HttpServer1_gitipl",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/indrang21/ADF_project01/raw/main/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
