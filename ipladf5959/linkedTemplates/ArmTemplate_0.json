@@ -57,7 +57,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/data_ipl2008_Json1')]",
+			"name": "[concat(parameters('factoryName'), '/data_sink_ipl2008_Json1')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -81,7 +81,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/data_ipl_2008')]",
+			"name": "[concat(parameters('factoryName'), '/data_source_ipl_2008')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
