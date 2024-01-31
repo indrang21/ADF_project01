@@ -1,0 +1,9 @@
+{
+	"name": "ipladf5959",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "52098858-deb1-4eab-87ba-966f928e2880",
+		"tenantId": "bb96a5b1-b7a6-47ad-92b7-2f59454b56aa"
+	}
+}
