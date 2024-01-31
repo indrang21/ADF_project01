@@ -1,0 +1,19 @@
+{
+	"name": "data_sink_ipl2009_Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsipl_AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ipldata_2008jason",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
