@@ -1,5 +1,5 @@
 {
-	"name": "data_ipl_2008",
+	"name": "data_source_ipl_2008",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_HttpServer1_gitipl",

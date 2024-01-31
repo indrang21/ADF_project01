@@ -1,5 +1,5 @@
 {
-	"name": "data_ipl2008_Json1",
+	"name": "data_sink_ipl2008_Json1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "lsipl_AzureDataLakeStorage1",
