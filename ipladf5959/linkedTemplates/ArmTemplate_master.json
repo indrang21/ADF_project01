@@ -7,15 +7,15 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ipladf5959"
 		},
-		"lsipl_AzureDataLakeStorage1_accountKey": {
+		"linkser_AzureDataLakeStorage_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'lsipl_AzureDataLakeStorage1'"
+			"metadata": "Secure string for 'accountKey' of 'linkser_AzureDataLakeStorage'"
 		},
-		"ls_HttpServer1_gitipl_properties_typeProperties_url": {
+		"link_HttpServer_github_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com/indrang21/ADF_project01/raw/main/"
+			"defaultValue": "https://github.com/indrang21/ETL_project/tree/main/ipl_dataset"
 		},
-		"lsipl_AzureDataLakeStorage1_properties_typeProperties_url": {
+		"linkser_AzureDataLakeStorage_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://iplproject2121.dfs.core.windows.net/"
 		},
@@ -46,14 +46,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"lsipl_AzureDataLakeStorage1_accountKey": {
-						"value": "[parameters('lsipl_AzureDataLakeStorage1_accountKey')]"
+					"linkser_AzureDataLakeStorage_accountKey": {
+						"value": "[parameters('linkser_AzureDataLakeStorage_accountKey')]"
 					},
-					"ls_HttpServer1_gitipl_properties_typeProperties_url": {
-						"value": "[parameters('ls_HttpServer1_gitipl_properties_typeProperties_url')]"
+					"link_HttpServer_github_properties_typeProperties_url": {
+						"value": "[parameters('link_HttpServer_github_properties_typeProperties_url')]"
 					},
-					"lsipl_AzureDataLakeStorage1_properties_typeProperties_url": {
-						"value": "[parameters('lsipl_AzureDataLakeStorage1_properties_typeProperties_url')]"
+					"linkser_AzureDataLakeStorage_properties_typeProperties_url": {
+						"value": "[parameters('linkser_AzureDataLakeStorage_properties_typeProperties_url')]"
 					}
 				}
 			},
