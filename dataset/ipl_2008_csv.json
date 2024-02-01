@@ -1,0 +1,22 @@
+{
+	"name": "ipl_2008_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "link_HttpServer_github",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "ipl_2008.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

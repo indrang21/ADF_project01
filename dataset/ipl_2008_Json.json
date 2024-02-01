@@ -1,0 +1,19 @@
+{
+	"name": "ipl_2008_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkser_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ipl_2008.json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
