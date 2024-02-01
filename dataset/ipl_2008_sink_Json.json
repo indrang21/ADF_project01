@@ -1,5 +1,5 @@
 {
-	"name": "ipl_2008_Json",
+	"name": "ipl_2008_sink_Json",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "linkser_AzureDataLakeStorage",

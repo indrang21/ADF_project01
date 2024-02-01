@@ -1,5 +1,5 @@
 {
-	"name": "ipl_2008_csv",
+	"name": "ipl_2008__source_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "link_HttpServer_github",
